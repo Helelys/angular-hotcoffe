@@ -9,3 +9,14 @@
 
   padding: 1em;
 }
+
+.container__img img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.container__text p {
+  width: 80%;
+  text-align: justify;
+}
