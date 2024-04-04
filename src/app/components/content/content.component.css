@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 60%;
+}
+
+.items {
+  margin: 2em;
+}
+
+.container__title {
+  margin-top: 2em;
+}
