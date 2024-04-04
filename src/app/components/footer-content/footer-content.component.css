@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Titan+One&display=swap');
+
+.container {
+  width: 100%;
+  height: 25vh;
+
+  background-color: black;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  font-family: "Indie Flower", cursive;
+}
+
+.container__about-us {
+  width: 50%;
+}
+
+.container__about-us h2 {
+  text-align: center;
+}
+
+.container__about-us p {
+  text-align: justify;
+}
+
+.container__links {
+  display: flex;
+  gap: 8em;
+}
+
+.useful-links ul, .contact ul {
+  list-style: none;
+}
+
+.useful-links h2, .contact h2 {
+  text-align: center;
+}
+
+.useful-links ul li a {
+  text-decoration: none;
+  color: white;
+}
